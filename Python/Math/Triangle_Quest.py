@@ -14,5 +14,6 @@ A single line containing integer, N.
 https://www.hackerrank.com/challenges/python-quest-1
 '''
 
+#(((10**i)-1)/9) is equation for repunits: 1, 11, 111, 1111,...
 for i in range(1,input()): #More than 2 lines will result in 0 score. Do not leave a blank line also
     print(i*(((10**i)-1)/9))
